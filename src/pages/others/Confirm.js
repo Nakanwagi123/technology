@@ -1,7 +1,8 @@
 import React,{Component} from 'react';
 import "./Confirm.css";
+import {Link} from "react-router-dom";
 
-class Confirm extends Component {
+class Confirm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {value: ''};
@@ -15,21 +16,23 @@ class Confirm extends Component {
   }
 
   handleSubmit(event) {
-    alert('A name was submitted: ' + this.state.value);
+    alert('Ordering ride to: ' + this.state.value);
     event.preventDefault();
   }
 
   render() {
     return (
-        <div id="body">  <form onSubmit={this.handleSubmit}>
+        <div id="body">
+        <form  id="form" onSubmit={this.handleSubmit}>
         <label>
-          Name:
-          <input type="text" value={this.state.value} onChange={this.handleChange} />
+          <h2>WHERE ARE YOU HEADING?</h2>
         </label>
-        <input type="submit" value="Submit" />
+        <input type="text" id="destination" placeholder="Destination?" value={this.state.value} onChange={this.handleChange} />
+        <input type="submit" class="submit" value="Confirm" />
       </form>
-      <p>Lets all go on,Lets all go on</p></div>
-    
+      <Link>Thank you next</Link>
+      </div> 
+
     );
   }
 }

@@ -13,7 +13,7 @@ function Nav(){
         <nav>
             <ul>
             <li><a href="#">Profile</a></li>
-            <li><Link to="/" class="link">Menuu</Link></li>
+            <li><Link to="/" class="link">Menu</Link></li>
             <li><a href="#">RideHistory</a></li>
             <li><a href="#">Support</a></li>
             <li><a href="#">About</a></li>
