@@ -6,6 +6,7 @@ class Confirm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {value: ''};
+    this.state={message:'This is hope'}
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -19,19 +20,27 @@ class Confirm extends React.Component {
     alert('Ordering ride to: ' + this.state.value);
     event.preventDefault();
   }
-
+  change(){
+    this.setState({message:'Thank you'})
+  }
+/// <h1>{this.state.message}</h1><button onClick={()=>this.change()}>Change</button>
   render() {
     return (
+      <>
         <div id="body">
+       
         <form  id="form" onSubmit={this.handleSubmit}>
         <label>
           <h2>WHERE ARE YOU HEADING?</h2>
         </label>
         <input type="text" id="destination" placeholder="Destination?" value={this.state.value} onChange={this.handleChange} />
         <input type="submit" class="submit" value="Confirm" />
+           
       </form>
-      <Link>Thank you next</Link>
+ 
       </div> 
+      </>
+     
 
     );
   }

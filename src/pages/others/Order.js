@@ -12,16 +12,15 @@ function Order(){
     <>
      <section>
     <div class="container">
-        <div class="split">
-      
-        <Link to="/confirm"><button>Next Page</button></Link>
-        </div>
+       
     </div>
-     <Router>
-        <Confirm/>
-        <Geolocation/>
-    </Router>
+     <Confirm/>
+      <div class="split">
+        <Link to="/confirmation"><button class="next">Next Step</button></Link>     
+        </div>
+    <Geolocation/>
     </section>
+      
     </>
     );
 }

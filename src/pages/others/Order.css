@@ -17,6 +17,8 @@ section {
 }
 .split {
   color: black;
+  text-align: center;
+  margin-top: 1rem;
 }
 .map {
   width: 100%;
@@ -34,4 +36,9 @@ section {
 .submit {
   margin-top: 0.6rem;
   border-radius: 0.6rem;
+}
+.next{
+    margin-top: 0.6rem;
+  border-radius: 0.6rem;
+  width:10rem;
 }

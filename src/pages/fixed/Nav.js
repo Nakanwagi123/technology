@@ -12,7 +12,7 @@ function Nav(){
         <input type="checkbox" id="nav-toggle" class="nav-toggle"/>
         <nav>
             <ul>
-            <li><a href="#">Profile</a></li>
+            <li><Link to="/account" class="link">Account</Link></li>
             <li><Link to="/" class="link">Menu</Link></li>
             <li><a href="#">RideHistory</a></li>
             <li><a href="#">Support</a></li>
