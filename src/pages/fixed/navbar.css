@@ -16,7 +16,20 @@ header{
     top:0rem;
     
 }
+.closure{
+    border:1px solid greenyellow;
+    display: flex;
+    flex-direction: row;
 
+}
+.notification{
+    text-align: center;
+    flex:1;
+}
+.logos{
+    border:1px solid white;
+    flex:4;
+}
 /*NAV animation*/
 nav{
     position:absolute;
@@ -74,6 +87,8 @@ left:0;
 height: 100%;
 display:flex;
 align-items: center;
+border: 1px solid greenyellow;
+
 }
 
 .nav-toggle-label span,.nav-toggle-label span::before,.nav-toggle-label span::after{
@@ -109,6 +124,10 @@ position: relative;
     .logo{
     
     }
+    .notification {
+        display: none;
+    }
+
     nav{
         border: 2px solid greenyellow;
         all:unset;
