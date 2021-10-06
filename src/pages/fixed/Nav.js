@@ -2,10 +2,10 @@ import React from "react";
 import "./navbar.css";
 import {Link} from "react-router-dom";
 
-function Nav(){
+class Nav extends React.Component{
 
-    
-    return(
+    render(){
+        return(
     <>
     <header>
     <div class="closure">
@@ -27,6 +27,8 @@ function Nav(){
     </header>
     </>
         );
+    }
+    
 }
 
 export default Nav;

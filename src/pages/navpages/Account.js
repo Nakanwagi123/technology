@@ -1,8 +1,16 @@
 import React from 'react';
 import "./Account.css";
 
-function Account() {
-    return (
+class Account extends React.Component {
+    constructor(props){
+        super(props)
+        this.state={count:0}
+    }
+    increment(){
+        this.setState({count:this.state.count+1})
+    }
+    render(){
+          return (
         <>
          <section>
              <div class="containerrr">
@@ -18,11 +26,14 @@ function Account() {
                   <div class="information">
                   <div><p>Email:</p>
                       <p>Telephone:</p>
-                      <p>Password:</p></div>
+                      <p>Password:</p>
+                      </div>
                   <div>
                       <p>andre##@gmail.com</p>
                       <p>+256 75#####</p>
                       <p>*****</p>
+                      <p>You have {this.state.count}messages</p>
+                      <button onClick={()=>this.increment()}>Refresh</button>
                   </div>
                       
                   </div>
@@ -31,6 +42,8 @@ function Account() {
          </section>   
         </>
     )
+    }
+  
 }
 
 export default Account
