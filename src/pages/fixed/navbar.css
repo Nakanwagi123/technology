@@ -17,12 +17,12 @@ header{
     
 }
 .closure{
-    border:1px solid greenyellow;
+   
     display: flex;
     flex-direction: row;
 
 }
-.notification{
+#notification{
     text-align: center;
     flex:1;
     padding-top: 1.5rem;
@@ -32,7 +32,7 @@ header{
     
 }
 .logos{
-    border:1px solid white;
+
     flex:4;
 }
 /*NAV animation*/
@@ -92,7 +92,7 @@ left:0;
 height: 100%;
 display:flex;
 align-items: center;
-border: 1px solid greenyellow;
+
 
 }
 
@@ -129,7 +129,7 @@ position: relative;
     .logo{
     
     }
-    .notification {
+    #notification {
         display: none;
     }
 
