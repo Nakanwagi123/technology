@@ -25,6 +25,11 @@ header{
 .notification{
     text-align: center;
     flex:1;
+    padding-top: 1.5rem;
+    
+    border-radius: 2rem;
+    height: 5rem;
+    
 }
 .logos{
     border:1px solid white;

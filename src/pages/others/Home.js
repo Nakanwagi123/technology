@@ -3,8 +3,10 @@ import './Home.css';
 import {Link} from "react-router-dom";
 
 
-function Home(){
-    return(
+class Home extends React.Component{
+   
+    render(){
+        return(
     <>
    <section class="order">
        <div class="container">
@@ -39,6 +41,6 @@ function Home(){
    </section>
   
         
-    </>);
+    </>);}
 }
 export default Home;
