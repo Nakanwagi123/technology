@@ -11,7 +11,7 @@ function History() {
                 <div class="headshot">
                     <div class="shot"></div>
                 </div>
-                <div class="nem"><h3 class="h3">Andrew Mayanja!</h3></div>
+                <div class="nem"><h3 class="h3">Andrew Mayanja</h3></div>
                 </div>
 
                   <hr class="hr"></hr>
@@ -23,7 +23,7 @@ function History() {
                      </div>
                     
                      <div class="measuretwo">
-                         <div><h3 class="h3">1d 2h 44m</h3><p>Total Riding Time</p></div>
+                         <div><h3 class="h3">1d 2h 44m</h3><p>Riding Time</p></div>
                          <div><h3 class="h3">12h 51m</h3><p>Total Wait time</p></div>
                      </div>
                      <hr class="hr"></hr>
