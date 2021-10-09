@@ -76,12 +76,15 @@ flex-direction: row;
 }
 .headshot{
     align-items: center;
+    
+
 }
 .nem{
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+
 
 }
 .shot {
@@ -104,3 +107,17 @@ flex-direction: row;
     color:#f3f3f3;
 }
 
+@media screen and (min-width:800px){
+    .names{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .headshot{
+        padding: 0rem 30rem;
+    }
+    .shot{
+        height:10rem;
+        max-width:10rem;
+    }
+}
