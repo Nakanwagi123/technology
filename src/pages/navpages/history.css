@@ -43,7 +43,7 @@ color:#f3f3f3;
 }
 .measureone>*{
     padding: 1rem 0.5rem;
-    font-size: 1.3rem;
+    font-size: 1.rem;
     flex:1;
     text-align: center;
 }

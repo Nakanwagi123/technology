@@ -7,7 +7,9 @@ function Settings() {
          <section class="casing">
              <div class="shelly">
                  <div class="shell">
-
+                 <div class="genesis">
+                 <div class="gen"></div>
+                 </div>
                  <div class="levelone">
                      <h2 class="headings">Profile Settings</h2>
                      <div class="one">

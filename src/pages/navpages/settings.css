@@ -5,16 +5,24 @@ body{
     margin: 0;
 }
 .casing{
-    padding: 1rem 0;
+    padding: 2rem 0;
+    background-color: rgb(75, 1, 1);
+
 }
 .shelly{
     margin-inline: auto;
-width: min(90%, 70.5rem);
+padding: 5rem 0;
+background-color: rgb(75, 1, 1);
 
 }
 .shell{
     display: flex;
     flex-direction: column;
+    border:1px groove #f3f3f3;
+    padding: 0rem 1rem;
+    border-radius: 2rem;
+    background-color: white;
+
 }
 .headings{
     padding-bottom: 0.5rem;
@@ -23,3 +31,22 @@ width: min(90%, 70.5rem);
 .one{color:grey}
 .two{color:grey}
 .three{color:grey}
+.genesis{
+margin-top: -5rem;
+}
+.gen {
+  background-image: url('./images/ride2afrrican.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 8rem; /* You must set a specified height*/
+  max-width: 8rem;
+  object-fit: contain;
+  padding: 0px 0px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-radius: 5rem;
+  border: 1px solid red;
+}
