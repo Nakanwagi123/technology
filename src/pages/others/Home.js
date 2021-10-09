@@ -13,7 +13,7 @@ class Home extends React.Component{
        <div class="container">
            <div class="split">
            <div class="placeorder"><p>Lets get you there!</p><Link to="/order"><button><h4>Order a Ride</h4></button></Link></div>
-           <div class="slider"><p>hello</p></div>
+           <div class="slider"></div>
            <div class="welcome"><p>WELCOME TO RIDEMYWAY!</p></div>
            </div>
        </div>

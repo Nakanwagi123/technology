@@ -33,11 +33,10 @@ class Account extends React.Component {
                       <p>+256 75#####</p>
                       <p>*****</p>
                       <p>You have {this.state.count}messages</p>
-                      <button onClick={()=>this.increment()}>Refresh</button>
                   </div>
-                      
+                  </div>   
                   </div>
-                  </div>
+                  <button onClick={()=>this.increment()}>Refresh</button>
              </div>
          </section>   
         </>

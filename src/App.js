@@ -8,6 +8,7 @@ import Confirm from './pages/others/Confirm';
 import Home from './pages/others/Home';
 import Order from './pages/others/Order';
 import Way from './pages/others/Way';
+import History from './pages/navpages/History';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/confirm" component={Confirm}/>
         <Route path="/confirmation" component={Way}/>
         <Route path="/account" component={Account}/>
+        <Route path="/ridehistory" component={History}/>
         </Switch>
         <Foot/>
       </Router>
