@@ -26,7 +26,7 @@ class Nav extends React.Component{
             <li><Link to="/account" class="link">Account</Link></li>
             <li><Link to="/" class="link">Menu</Link></li>
             <li><Link to="/ridehistory" class="link">RideHistory</Link></li>
-            <li><a href="#">Settings</a></li>
+            <li><Link to="/settings" class="link">Settings</Link></li>
             <li><a href="#">Signup to drive</a></li>
             </ul>
         </nav>

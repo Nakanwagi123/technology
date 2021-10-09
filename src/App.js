@@ -9,6 +9,7 @@ import Home from './pages/others/Home';
 import Order from './pages/others/Order';
 import Way from './pages/others/Way';
 import History from './pages/navpages/History';
+import Settings from './pages/navpages/Settings';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/confirmation" component={Way}/>
         <Route path="/account" component={Account}/>
         <Route path="/ridehistory" component={History}/>
+        <Route path="/settings" component={Settings}/>
         </Switch>
         <Foot/>
       </Router>

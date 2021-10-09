@@ -1,0 +1,25 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.casing{
+    padding: 1rem 0;
+}
+.shelly{
+    margin-inline: auto;
+width: min(90%, 70.5rem);
+
+}
+.shell{
+    display: flex;
+    flex-direction: column;
+}
+.headings{
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid grey;
+}
+.one{color:grey}
+.two{color:grey}
+.three{color:grey}
