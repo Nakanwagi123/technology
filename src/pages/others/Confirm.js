@@ -6,14 +6,15 @@ class Confirm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {value: ''};
-    this.state={message:'This is hope'}
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.change=this.change.bind(this);
   }
 
   handleChange(event) {
     this.setState({value: event.target.value});
+    
   }
 
   handleSubmit(event) {
@@ -21,9 +22,10 @@ class Confirm extends React.Component {
     event.preventDefault();
   }
   change(){
-    this.setState({message:'Thank you'})
+    document.getElementById("form").style.display="none";
+    document.getElementById("confirmy").style.display="block";
   }
-/// <h1>{this.state.message}</h1><button onClick={()=>this.change()}>Change</button>
+/// <h1>{this.state.message}</h1><button onClick={()=>this.change()}>Change</button>onClick={this.change}
   render() {
     return (
       <>
@@ -34,9 +36,22 @@ class Confirm extends React.Component {
           <h2>WHERE ARE YOU HEADING?</h2>
         </label>
         <input type="text" id="destination" placeholder="Destination?" value={this.state.value} onChange={this.handleChange} />
-        <input type="submit" class="submit" value="Confirm" />
+        <button class="button" type="submit" onClick={this.change}>Confirm</button>
            
       </form>
+      
+      <div id="confirmy">
+         <div class="split">
+            <p><h1>Order Confirmed</h1>
+            <h3>Ride on its Way</h3>
+            </p>
+            <p>Destination: {this.state.value}</p>
+            <div class="motorcycle">
+              <i class="fas fa-motorcycle fa-2x"></i>
+            </div>    
+        </div>
+        <Link to="/"><button class="back">Back to Home</button></Link>  
+      </div>
  
       </div> 
       </>

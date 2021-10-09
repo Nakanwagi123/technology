@@ -15,9 +15,6 @@ function Order(){
        
     </div>
      <Confirm/>
-      <div class="split">
-        <Link to="/confirmation"><button class="next">Next Step</button></Link>     
-        </div>
     <Geolocation/>
     </section>
       
