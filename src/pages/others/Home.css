@@ -50,6 +50,7 @@ button {
   border-radius: 5rem;
   width: 15rem;
   font-size: 1rem;
+  background-color: aqua;
 }
 .slider {
   background-image: url('./images/ride3.jpg');

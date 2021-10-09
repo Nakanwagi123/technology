@@ -18,14 +18,14 @@ class Confirm extends React.Component {
   }
 
   handleSubmit(event) {
-    alert('Ordering ride to: ' + this.state.value);
+  
     event.preventDefault();
   }
   change(){
     document.getElementById("form").style.display="none";
     document.getElementById("confirmy").style.display="block";
   }
-/// <h1>{this.state.message}</h1><button onClick={()=>this.change()}>Change</button>onClick={this.change}
+/// <h1>{this.state.message}</h1><button onClick={()=>this.change()}>Change</button>onClick={this.change}  alert('Ordering ride to: ' + this.state.value);
   render() {
     return (
       <>
