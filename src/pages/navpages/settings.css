@@ -31,9 +31,12 @@ background-color: rgb(75, 1, 1);
 .one{color:grey}
 .two{color:grey}
 .three{color:grey}
+
 .genesis{
 margin-top: -5rem;
+
 }
+
 .gen {
   background-image: url('./images/ride2afrrican.jpg');
   background-position: center;
@@ -49,4 +52,19 @@ margin-top: -5rem;
   left: 0;
   border-radius: 5rem;
   border: 1px solid red;
+}
+@media screen and (min-width:800px){
+    .shelly{
+        padding: 10rem 0;
+    }
+
+    .genesis{
+      text-align: center;
+      padding: 0 30rem;
+    }
+    .gen{
+       height: 15rem; 
+       max-width: 15rem;
+       border-radius: 10rem;
+    }
 }
