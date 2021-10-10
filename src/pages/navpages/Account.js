@@ -12,7 +12,7 @@ class Account extends React.Component {
     render(){
           return (
         <>
-         <section>
+         <section id="settings">
              <div class="containerrr">
                   <div class="splittt">
                   <div class="profile">

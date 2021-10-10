@@ -10,10 +10,8 @@ function Order(){
  
     return(
     <>
-     <section>
-    <div class="container">
-       
-    </div>
+     <section id="se">
+ 
      <Confirm/>
     <Geolocation/>
     </section>

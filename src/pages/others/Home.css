@@ -9,20 +9,23 @@
 body {
   margin: 0;
 }
-.order {
+#order {
   margin-top: 5rem;
   background-color: white;
   color: black;
   display: flex;
   flex-direction: column;
   border: 1px solid black;
-  padding: 0rem 0;
+  padding: 0rem 1rem;
 }
 .container {
-  margin-inline: auto;
-  width: 100%;
+  width: min(90%, 70.5rem);
+  width:90%;
+
 }
 .split {
+  width: min(90%, 70.5rem);
+
   display: flex;
   flex-direction: column;
 }
@@ -74,12 +77,11 @@ button {
   font-weight: bold;
   text-transform: uppercase;
 }
-section {
+#order {
   padding: 3rem 0;
   margin-bottom: 3rem;
 }
 .containerone {
-  margin-inline: auto;
   width: min(90%, 70.5rem);
 }
 .title {

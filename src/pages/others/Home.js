@@ -9,7 +9,7 @@ class Home extends React.Component{
     render(){
         return(
     <>
-   <section class="order">
+   <section id="order">
        <div class="container">
            <div class="split">
            <div class="placeorder"><p>Lets get you there!</p><Link to="/order"><button><h4>Order a Ride</h4></button></Link></div>

@@ -7,8 +7,8 @@ import {Link} from "react-router-dom";
 function Way() {
     return (
         <>
-        <section>
-        <div class="container">
+        <section id="sec">
+        <div class="con">
         <div class="split">
              <h1>Order Confirmed</h1>
             <p>Ride on its Way {this.state.value}</p>

@@ -4,14 +4,11 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-}
-section {
+#sec {
   margin-top: 4rem;
   padding: 3rem 0;
 }
-.container{
+.con{
 text-align: center;
 }
 .split>*{
