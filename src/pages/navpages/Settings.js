@@ -1,13 +1,16 @@
 import React from 'react';
 import "./settings.css";
 
-function Settings() {
-    return (
+class Settings extends React.Component {
+    darktheme=()=>{
+
+    }
+    render(){
+         return (
         <>
          <section class="casing">
              <div class="shelly">
                  <div class="shell">
-
                  <div class="genesis">
                  <div class="gen"></div>
                  </div>
@@ -15,7 +18,7 @@ function Settings() {
                  <div class="levelone">
                      <h2 class="headings">Profile Settings</h2>
                      <div class="one">
-                         <p>Theme</p>
+                         <button onClick={()=>this.darktheme()}></button>
                          <p>Send push notifications</p>
                      </div>
                  </div>
@@ -40,6 +43,8 @@ function Settings() {
          </section>   
         </>
     )
+    }
+   
 }
 
 export default Settings

@@ -110,16 +110,13 @@ flex-direction: row;
 @media screen and (min-width:800px){
     .names{
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: column;  
     }
 
     .headshot{
         display: flex;
         align-items: center;
         justify-content: center;
-    
-
     }
     .shot{
         flex:1;
