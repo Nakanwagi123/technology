@@ -72,8 +72,22 @@ nav a{
     opacity:0;
     transition:opacity 250ms ease-in-out;
 }
+.link{
+    color: white;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 1rem;
+opacity: 0;
+transition: opacity 250ms ease-in-out;
+
+}
+
 nav a:hover{
     color:#000;
+}
+.link:hover{
+    color: #f3f3f3;
+
 }
 .nav-toggle{
     display:none;
@@ -82,6 +96,8 @@ nav a:hover{
     display: block;
     transform: scale(1,1);
 }
+
+
 
 /*Menu ICON*/
 .nav-toggle-label{
@@ -92,8 +108,6 @@ left:0;
 height: 100%;
 display:flex;
 align-items: center;
-
-
 }
 
 .nav-toggle-label span,.nav-toggle-label span::before,.nav-toggle-label span::after{
@@ -115,6 +129,7 @@ position: relative;
     opacity:1;
     transition:opacity 250ms ease-in-out 250ms;
 }
+
 @media screen and (min-width:800px){
     .nav-toggle-label{
         display:none;
@@ -141,6 +156,7 @@ position: relative;
         align-items: center;
     }
     nav a{opacity: 1;}
+ 
     nav ul{
         display: flex;
         justify-content: flex-end;
@@ -163,6 +179,10 @@ position: relative;
 }
 nav a:hover::before{
     transform: scale(1,1);
+}
+#link{
+    color:whitesmoke;
+    opacity: 1;
 }
 
 }

@@ -6,7 +6,6 @@ function History() {
         <section class="sectio">
             <div class="contain">
                 <div class="spli">
-
                 <div class="names">
                 <div class="headshot">
                     <div class="shot"></div>
